@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import ChatOpenAI from "./ChatOpenAI";
 // PUBLIC_INTERFACE
 function App() {
   const [theme, setTheme] = useState('light');
@@ -42,6 +42,8 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* PUBLIC_INTERFACE: Minimal OpenAI chat modal, floats app-wide */}
+      <ChatOpenAI />
     </div>
   );
 }

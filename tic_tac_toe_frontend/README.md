@@ -11,6 +11,17 @@ This project provides a minimal React template with a clean, modern UI and minim
 
 ## Getting Started
 
+**OpenAI AI Chat Integration**
+
+To use the AI chat feature, you need an OpenAI API key (starts with `sk-`).  
+Create a file `.env` in the project root with:
+
+```
+REACT_APP_OPENAI_API_KEY=sk-<your-api-key-here>
+```
+
+Or provide `OPENAI_API_KEY` as a runtime environment variable during deployment.
+
 In the project directory, you can run:
 
 ### `npm start`
